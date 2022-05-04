@@ -23,18 +23,22 @@ public class calculator {
 
 		return first+second;
 	}
+	
 	//Difference
 	public long subFunc(long first, long second){
 			
 		return first-second;
 	}
+	
 	//Product 
 	public long mulFunc(long first, long second){
 
 		return first*second;
 	}
 
+
 	public static void main main(String[] args) {
+
 		long first= Long.parseLong(args[0]};
 		long second= Long.parselong(args[1]};
 	
@@ -42,5 +46,7 @@ public class calculator {
 
 		String output=String format("\n*** Your Results ***\n\nFirst: %d\nSecond: %d\n\nSum: %d\nDifference :%d\nProduct : %d\n\n", cal.first, cal.second, cal.addfunc(first, second), cal.subfunc(first, second), cal.mulfunc(first, second)); 
 	      system.out.println(output);
+	}
+	
 	}
 
