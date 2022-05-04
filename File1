@@ -40,7 +40,7 @@ public class calculator {
 	
 		calculator cal=new calculator(first, second);
 
-		String output=String format("\n*** Your Results ***\n\nFirst: %d\nSecond: %d\n\nSum: %d\nDifference :%d\nProduct : %d\n\n", cal.first,cal.second, cal.addfunc(first,second), cal.subfunc(first,second), cal.mulfunc(first,second)); 
+		String output=String format("\n*** Your Results ***\n\nFirst: %d\nSecond: %d\n\nSum: %d\nDifference :%d\nProduct : %d\n\n", cal.first, cal.second, cal.addfunc(first, second), cal.subfunc(first, second), cal.mulfunc(first, second)); 
 	      system.out.println(output);
 	}
 
